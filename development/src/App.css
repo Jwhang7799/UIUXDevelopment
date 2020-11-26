@@ -1,0 +1,315 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex: 1;
+  background-color: #E1E5EE;
+  height: 120vw;
+}
+.title {
+  font-size: 8vw;
+  font-weight: 700;
+  border-bottom: 2px solid rgb(100, 100, 100);
+  text-align: left;
+  padding-left: 3vw;
+  padding-top: 2vw;
+  margin-bottom: 2vw;
+  background-color: #2A324B;
+  color: white;
+}
+.optionsHeading {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 2vw;
+}
+.option {
+  margin-top: 2vw;
+  padding-left: 3vw;
+}
+.optionLabel {
+  margin-bottom: 2vw;
+  text-align: left;
+}
+.formControl {
+  width: 30vw;
+}
+.mainDivider {
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  display: flex;
+}
+.cardContainer {
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards {
+  width: 44vw;
+  height: 40vw;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+.pic {
+  width: 44vw;
+  height: 24vw;
+  align-items: center;
+}
+.menu {
+  align-self: flex-start;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  flex-wrap: wrap;
+}
+.contentContainer {
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 44vw;
+  height: 16vw;
+}
+.cardHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.foodTitle {
+  text-align: left;
+  font-weight: 500;
+  font-size: 3vw;
+}
+.descriptionContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0.5vw;
+}
+.description {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-top: 2vw;
+  font-size: 2lvw;
+}
+.spicyContainer {
+  padding-left: 0.5vw;
+  padding-bottom: 0.1vw;
+  display: flex;
+  flex-direction: row;
+}
+.nonspicyContainer {
+  padding-left: 0.5vw;
+}
+.spicyLabel {
+  padding-right: 0.5vw;
+}
+.spicy {
+  height: 1.5vw;
+  width: 0.75vw;
+}
+.shoppingCartContainer {
+  width: 40vw;
+  margin-top: 10vh;
+  margin-right: 4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cartTitle {
+  font-size: 5vw;
+  font-weight: 700;
+  border-bottom: 2px solid #2A324B;
+  color: #2A324B;
+}
+.cartContents {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cartItem {
+  height: 5vw;
+  width: 40vw;
+  margin-bottom: 8vw;
+}
+.total {
+  font-size: 4vw;
+  font-weight: 700;
+  margin-top: 5vw;
+  color: #2A324B
+}
+.noResult {
+  margin: 5vw;
+  margin-top: 3vw;
+  font-size: 1.5vw;
+  font-weight: 700;
+}
+.footer {
+  height: 10vw;
+}
+
+@media screen and (min-width: 950px) {
+  .body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+    background-color: #E1E5EE;
+  }
+  .title {
+    font-size: 3vw;
+    font-weight: 700;
+    border-bottom: 2px solid rgb(100, 100, 100);
+    text-align: left;
+    padding-left: 3vw;
+    padding-top: 2vw;
+    margin-bottom: 2vw;
+    background-color: #2A324B;
+    color: white;
+  }
+  .optionsHeading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 2vw;
+  }
+  .option {
+    margin-top: 0;
+    padding-left: 3vw;
+  }
+  .optionLabel {
+    margin-bottom: 2vw;
+    text-align: left;
+  }
+  .formControl {
+    width: 16vw;
+  }
+  .mainDivider {
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap
+  }
+  .cardContainer {
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cards {
+    width: 22vw;
+    height: 20vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-left: 2vw;
+  }
+  .pic {
+    width: 22vw;
+    height: 12vw;
+    align-items: center;
+  }
+  .menu {
+    align-self: flex-start;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+    padding-right: 2vw;
+  }
+  .contentContainer {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    height: 8vw;
+  }
+  .cardHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .foodTitle {
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.5vw;
+  }
+  .descriptionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.5vw;
+  }
+  .description {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-top: 0;
+    font-size: 1vw;
+  }
+  .spicyContainer {
+    padding-left: 0.5vw;
+    padding-bottom: 0.1vw;
+  }
+  .nonspicyContainer {
+    padding-left: 0.5vw;
+  }
+  .spicy {
+    height: 1.5vw;
+    width: 0.75vw;
+  }
+  .shoppingCartContainer {
+    width: 18vw;
+    margin-top: 10vh;
+    margin-right: 4vw;
+  }
+  .cartTitle {
+    font-size: 2vw;
+    font-weight: 700;
+    border-bottom: 2px solid #2A324B;
+    color: #2A324B
+  }
+  .cartContents {
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .cartItem {
+    height: 5vw;
+    width: 20vw;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .total {
+    font-size: 1.5vw;
+    font-weight: 700;
+    margin-top: 2vw;
+    color: #2A324B
+  }
+  .noResult {
+    margin: 5vw;
+    margin-top: 3vw;
+    font-size: 1.5vw;
+    font-weight: 700;
+  }
+  .footer {
+    height: 5vw;
+  }
+}
